@@ -3,15 +3,23 @@
 A Python Command Line Interface (CLI) application for managing personal user information.
 This project is beginner-friendly but designed to be portfolio-ready, showcasing Python skills, file handling, basic security, and CLI development.
 
- Features
+ Secure login system
 
-Secure login system
+Strong password enforcement:
 
-Strong password enforcement (uppercase, lowercase, number, special character)
+At least 8 characters
+
+Uppercase letter
+
+Lowercase letter
+
+Number
+
+Special character
 
 Password hashing using SHA-256
 
-Compatible with both PyCharm Run Console and terminal
+Compatible with PyCharm Run Console and terminal
 
 CRUD operations for users
 
@@ -54,8 +62,10 @@ cd personal-info-manager
 (Optional) Create a virtual environment:
 
 python -m venv venv
-source venv/bin/activate    # Linux / Mac
-venv\Scripts\activate       # Windows
+# Linux / Mac
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
 
 
 Run the program:
@@ -67,7 +77,7 @@ python LEARNING.py
 
 🛠 Usage
 
-After login, you can interact with the menu:
+After login, the menu appears:
 
 === Personal Info Manager ===
 1. Add user
@@ -79,7 +89,7 @@ After login, you can interact with the menu:
 7. Exit
 
 
-Enter the number corresponding to the action you want.
+Type the number corresponding to the action you want.
 
 All data is stored locally in users.json.
 
@@ -87,19 +97,29 @@ Exported CSV is saved as users.csv.
 
 ✅ Project Goals
 
-Learn Python basics: variables, input/output, files, JSON
+Learn Python basics:
 
-Practice building a CLI program with a menu system
+Variables
 
-Understand basic security: password hashing and validation
+Input/output
+
+Files and JSON handling
+
+Practice building a menu-driven CLI program
+
+Understand basic security: password hashing & validation
 
 Manage structured data (CRUD operations)
 
-Prepare a portfolio-ready project for GitHub
+Prepare a portfolio-ready GitHub project
 
 📝 Notes
 
-Avoid pushing sensitive files like password.txt or users.csv if they contain real data.
+Avoid pushing sensitive files like:
+
+password.txt
+
+users.csv (if it contains real data)
 
 Use .gitignore for safety:
 
@@ -109,9 +129,9 @@ __pycache__/
 *.json
 password.txt
 
- Technologies Used
+🔖 Technologies Used
 
-Python 
+Python 3.x
 
 JSON for data storage
 
