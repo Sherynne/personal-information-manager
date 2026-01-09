@@ -49,10 +49,6 @@ Each user entry stores creation date and time
 
 💻 Installation
 
-Clone this repository:
-
-git clone https://github.com/your-username/personal-info-manager.git
-
 
 Navigate into the project folder:
 
