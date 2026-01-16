@@ -1,30 +1,30 @@
-# 📁 Personal Info Manager
+#  Personal Info Manager
 
 A professional Python-based **Command Line Interface (CLI)** application designed for the secure management of personal user records. This project demonstrates core competencies in **Data Engineering**, **Cybersecurity (Hashing)**, and **CRUD Application Logic**.
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔐 Advanced Security
+###  Advanced Security
 * **Secure Authentication**: Access is protected by a mandatory login system.
 * **SHA-256 Hashing**: Passwords are never stored in plain text; they are hashed using the SHA-256 algorithm for maximum security.
 * **Strong Password Enforcement**: The system requires a complex password (8+ characters, uppercase, lowercase, numbers, and special characters).
 
-### 🛠️ Data Management (CRUD)
+###  Data Management (CRUD)
 * **Create**: Generate new user records with unique **UUID-based identifiers**.
 * **Read**: View a complete list of users or perform targeted searches by Name or ID.
 * **Update**: Modify existing user details dynamically.
 * **Delete**: Securely remove records from the local database.
 
-### 📊 Reporting & Integrity
+###  Reporting & Integrity
 * **CSV Data Export**: One-click export of all user data for external reporting or backups.
 * **Robust Validation**: Built-in logic to handle incorrect inputs and enforce age limits (0–120).
 * **Automated Timestamps**: Every record automatically stores the exact date and time of creation.
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the Repository**
    ```bash
@@ -72,7 +72,7 @@ Encryption: SHA-256 via Python's hashlib
 
 Identifiers: UUID (Universally Unique Identifier)
 
-📝 Project Goals & Learning Outcomes
+ Project Goals & Learning Outcomes
 This project was developed to master several key software engineering concepts:
 
 Object-Oriented Thinking: Managing structured user data.
@@ -83,7 +83,7 @@ File I/O: Handling asynchronous data reading and writing with JSON and CSV.
 
 CLI Design: Building a user-friendly, menu-driven terminal experience.
 
-⚠️ Security Notice
+ Security Notice
 To ensure data privacy, the following files are excluded from version control via .gitignore:
 
 password.txt (Administrative credentials)
